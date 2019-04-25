@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.email         = 'oscar.demoya@koombea.com'
 
   spec.summary       = 'Fastlane plugin for moving a trello card to a given list'
-  # spec.homepage      = "https://github.com/<GITHUB_USERNAME>/fastlane-plugin-trello"
+  spec.homepage      = "https://github.com/oscardemoya/fastlane-plugin-trello"
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*"] + %w(README.md LICENSE)
