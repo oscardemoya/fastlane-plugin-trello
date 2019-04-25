@@ -1,3 +1,9 @@
 lane :test do
-  trello
+  trello(
+    api_key: "a1B2c3D4a1B2c3D4a1B2c3D4",
+    api_token: "a1B2c3D4a1B2c3D4a1B2c3D4a1B2c3D4a1B2c3D4a1B2c3D4",
+    board_id: "a1B2c3D4",
+    list_name: "Done",
+    card_number: 123
+  )
 end
