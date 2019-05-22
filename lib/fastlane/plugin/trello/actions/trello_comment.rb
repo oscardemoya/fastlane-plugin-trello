@@ -44,7 +44,7 @@ module Fastlane
       
       def self.add_comment(card_id:, text:)
         url = URI("#{@base_path}/cards/#{card_id}/actions/comments?text=#{text}&key=#{@key}&token=#{@token}")
-        request = Net::HTTP::Put.new(url)
+        request = Net::HTTP::Post.new(url)
         response = @http.request(request)
         card = JSON.parse(response.body)
         return card
