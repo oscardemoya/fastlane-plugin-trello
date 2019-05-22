@@ -1,5 +1,5 @@
 lane :test do
-  trello(
+  trello_move_card(
     api_key: "a1B2c3D4a1B2c3D4a1B2c3D4",
     api_token: "a1B2c3D4a1B2c3D4a1B2c3D4a1B2c3D4a1B2c3D4a1B2c3D4",
     board_id: "a1B2c3D4",

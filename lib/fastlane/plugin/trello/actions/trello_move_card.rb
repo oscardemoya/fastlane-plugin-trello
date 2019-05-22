@@ -6,7 +6,7 @@ require_relative '../helper/trello_helper'
 
 module Fastlane
   module Actions
-    class TrelloAction < Action
+    class TrelloMoveCardAction < Action
       
       @base_path = "https://api.trello.com/1"
       @base_url = URI(@base_path)
