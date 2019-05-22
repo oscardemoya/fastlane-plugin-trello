@@ -68,7 +68,7 @@ module Fastlane
       end
 
       def self.description
-        "Trello plugin for Fastlane"
+        "Moves a Trello card to a given list"
       end
 
       def self.authors
@@ -77,10 +77,6 @@ module Fastlane
 
       def self.return_value
         # If your method provides a return value, you can describe here what it does
-      end
-
-      def self.details
-        "Plugin for moving a trello card to a given list"
       end
 
       def self.available_options
