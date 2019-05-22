@@ -18,12 +18,12 @@ Fastlane plugin for moving a trello card to a given list
 
 #### Move Card
 
-Use `trello` to move a card to a given list.
+Use `trello_move_card` to move a card to a given list.
 
 **Usage:**
 
 ```
-  trello(
+  trello_move_card(
     api_key: "a1B2c3D4a1B2c3D4a1B2c3D4",
     api_token: "a1B2c3D4a1B2c3D4a1B2c3D4a1B2c3D4a1B2c3D4a1B2c3D4",
     board_id: "a1B2c3D4",
