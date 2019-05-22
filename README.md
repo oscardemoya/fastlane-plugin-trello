@@ -14,7 +14,39 @@ fastlane add_plugin trello
 
 Fastlane plugin for moving a trello card to a given list
 
-**Note to author:** Add a more detailed description about this plugin here. If your plugin contains multiple actions, make sure to mention them here.
+### Available Actions
+
+#### Move Card
+
+Use `trello` to move a card to a given list.
+
+**Usage:**
+
+```
+  trello(
+    api_key: "a1B2c3D4a1B2c3D4a1B2c3D4",
+    api_token: "a1B2c3D4a1B2c3D4a1B2c3D4a1B2c3D4a1B2c3D4a1B2c3D4",
+    board_id: "a1B2c3D4",
+    list_name: "Done",
+    card_number: 123
+  )
+```
+
+#### Add Comment
+
+Use `trello_comment` to add a comment to a given card.
+
+**Usage:**
+
+```
+  trello_comment(
+    api_key: "a1B2c3D4a1B2c3D4a1B2c3D4",
+    api_token: "a1B2c3D4a1B2c3D4a1B2c3D4a1B2c3D4a1B2c3D4a1B2c3D4",
+    board_id: "a1B2c3D4",
+    card_number: 123,
+    text: "This is a comment"
+  )
+```
 
 ## Example
 

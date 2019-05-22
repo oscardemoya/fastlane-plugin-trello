@@ -7,3 +7,13 @@ lane :test do
     card_number: 123
   )
 end
+
+lane :test_comment do
+  trello_comment(
+    api_key: "a1B2c3D4a1B2c3D4a1B2c3D4",
+    api_token: "a1B2c3D4a1B2c3D4a1B2c3D4a1B2c3D4a1B2c3D4a1B2c3D4",
+    board_id: "a1B2c3D4",
+    card_number: 123,
+    text: "This is a comment"
+  )
+end
